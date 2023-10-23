@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.margin-30px{
+    margin: 30px;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+#rowSuhu{
+    margin-top:50px;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.showSensor{
+    cursor: pointer;
+}
+
+.hideSensor{
+    cursor: pointer;
+}
